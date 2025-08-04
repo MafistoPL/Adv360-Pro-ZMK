@@ -222,3 +222,10 @@
     bindings = <&mkp MB1 &mkp MB1>;
     display-name = "Double Click";
   };
+
+  ctrl_alt_macro: ctrl_alt_macro {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp LCTRL &kp LALT>;
+    display-name = "CTRL_ALT";
+  };
